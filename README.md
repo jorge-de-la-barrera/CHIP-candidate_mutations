@@ -12,3 +12,8 @@ Based on the instructions detailed in that paper, we built a masked version of G
 
 4.- Use __bwa index__ to make the BWA index files for the masked fasta file
 
+## Variant Calling
+The variant calling was performed by 2 WDL script:
+- xxx: make the variant calling for a single-sample level
+- yyy: make the variant calling at a cohort-level
+
