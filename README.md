@@ -14,6 +14,6 @@ Based on the instructions detailed in that paper, we built a masked version of G
 
 ## Variant Calling
 The variant calling was performed by 2 WDL script:
-- xxx: make the variant calling for a single-sample level
-- yyy: make the variant calling at a cohort-level
+- variant_calling.wdl: make the variant calling for a single-sample level
+- cohort_candidates.wdl: make the variant calling at a cohort-level
 
