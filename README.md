@@ -14,6 +14,10 @@ Based on the instructions detailed in that paper, we built a masked version of G
 
 ## Variant Calling
 The variant calling was performed by 2 WDL script:
-- variant_calling.wdl: make the variant calling for a single-sample level
-- cohort_candidates.wdl: make the variant calling at a cohort-level
+- __variant_calling.wdl__: make the variant calling for a single-sample level
+- __cohort_candidates.wdl__: make the variant calling at a cohort-level
 
+## *Driver* mutations candidates
+A list of mutations candidates are obtained using:
+- __chip_parsing_crossectional.py__ : for a crossectional cohort (one time-point)
+- __chip_parsing_longitudinal.py__ : for a longitudinal cohort
