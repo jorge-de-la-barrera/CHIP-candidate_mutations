@@ -1,4 +1,6 @@
-# CHIP-candidate_mutations
+# Source code software used in
+Díez-Díez, M., Ramos-Neble, B.L., de la Barrera, J. *et al*. Unidirectional association of clonal hematopoiesis with atherosclerosis development. *Nat Med* (2024). https://doi.org/10.1038/s41591-024-03213-1
+
 ## Build a masked version of GRCh38 reference genome
 The U2AF1 gene is essential for mRNA splicing and is often mutated in hematopoietic cancers. However, updates in the GRCh38 human reference genome hinder the detection of these mutations by variant calling pipelines as described in [Failure to Detect Mutations in U2AF1 due to Changes in the GRCh38 Reference Sequence](https://doi.org/10.1016/j.jmoldx.2021.10.013).
 
@@ -17,7 +19,9 @@ The variant calling was performed by 2 WDL script:
 - __variant_calling.wdl__: make the variant calling for a single-sample level
 - __cohort_candidates.wdl__: make the variant calling at a cohort-level
 
-## *Driver* mutations candidates
-A list of *__putative__* mutations candidates are obtained using:
+## *Driver* cadidate mutations
+A list of *__putative__* cadidate mutations were obtained using:
 - __chip_parsing_crossectional.py__ : for a crossectional cohort (one time-point)
 - __chip_parsing_longitudinal.py__ : for a longitudinal cohort
+
+Above lists were manually curated using the criteria described in the paper to obtain the list of CH *driver* mutations.
