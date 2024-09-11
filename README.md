@@ -18,6 +18,6 @@ The variant calling was performed by 2 WDL script:
 - __cohort_candidates.wdl__: make the variant calling at a cohort-level
 
 ## *Driver* mutations candidates
-A list of mutations candidates are obtained using:
+A list of *__putative__* mutations candidates are obtained using:
 - __chip_parsing_crossectional.py__ : for a crossectional cohort (one time-point)
 - __chip_parsing_longitudinal.py__ : for a longitudinal cohort
